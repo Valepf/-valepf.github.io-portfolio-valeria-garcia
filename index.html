@@ -1,16 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Valeria Garcia | Programadora</title>
-<meta name="description" content="Valeria Garcia, programadora: automatización, sistemas de gestión y enseñanza de programación.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Valeria Garcia | Programadora">
-<meta property="og:description" content="Automatización, sistemas de gestión y enseñanza de programación. Mirá mis proyectos.">
-<meta name="theme-color" content="#6D28D9">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%236D28D9'/%3E%3Ctext x='32' y='45' font-size='38' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EV%3C/text%3E%3C/svg%3E">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<meta content="Valeria Garcia, programadora: automatización, sistemas de gestión y enseñanza de programación." name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="Valeria Garcia | Programadora" property="og:title"/>
+<meta content="Automatización, sistemas de gestión y enseñanza de programación. Mirá mis proyectos." property="og:description"/>
+<meta content="#6D28D9" name="theme-color"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%236D28D9'/%3E%3Ctext x='32' y='45' font-size='38' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EV%3C/text%3E%3C/svg%3E" rel="icon"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=DM+Sans:wght@400;500&amp;display=swap" rel="stylesheet"/>
 <style>
 :root{--bg:#F5F0FF;--ink:#1E1033;--deep:#6D28D9;--mid:#A78BFA;--soft:#C4B5FD;--pale:#DDD6FE;--white:#fff}
 *{box-sizing:border-box}
@@ -55,95 +56,59 @@ h2{font-size:clamp(32px,4.5vw,44px);margin-bottom:32px}
 footer{padding:0 0 40px;font-size:15px}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
 @media (max-width:560px){.contact{padding:32px 24px}.photo{min-height:240px}}
+
+.contact-details{margin:0;overflow-wrap:anywhere;font-size:17px}.contact .btn{color:var(--ink)}
 </style>
-</head>
+<style>
+.project-visual{border-style:solid;color:white;font-family:"Space Grotesk",sans-serif;font-size:22px;letter-spacing:-.4px}.project-visual.dashboard{background:linear-gradient(135deg,#30205c,#6d28d9)}.project-visual.workflow{background:linear-gradient(135deg,#5932a8,#a78bfa);color:#1e1033}.card .row .btn{font-size:15px;min-height:42px;padding:0 15px;border-width:2px;box-shadow:3px 3px 0 var(--ink)}
+</style></head>
 <body>
-
 <header>
-  <div class="wrap">
-    <a class="logo" href="#inicio">Valepf<span>.</span></a>
-    <nav aria-label="Principal">
-      <a href="#proyectos">Proyectos</a>
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </div>
+<div class="wrap">
+<a class="logo" href="#inicio">Valepf<span>.</span></a>
+<nav aria-label="Principal">
+<a href="#proyectos">Proyectos</a>
+<a href="#sobre-mi">Sobre mí</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</div>
 </header>
-
 <main class="wrap" id="inicio">
-  <div class="hero">
-    <div>
-      <span class="chip" style="background:var(--mid)">Hola, soy Valeria Garcia</span>
-      <h1>Programadora que <em>automatiza</em> y enseña a crear</h1>
-      <p>Python, n8n, sistemas de gestión y mucha curiosidad. Acá reúno lo que construyo: automatizaciones, sistemas y juegos.</p>
-      <div class="row">
-        <a class="btn main" href="#proyectos">Ver proyectos</a>
-        <a class="btn" href="#contacto">Hablemos</a>
-      </div>
-    </div>
-    <div class="photo"><img class="me" src="foto.jpg" alt="Retrato de Valeria Garcia" width="400" height="400"></div>
-  </div>
-
-  <section id="proyectos">
-    <h2>Proyectos destacados</h2>
-    <div class="grid">
-      <article class="card">
-        <div class="shot" style="background:var(--deep);color:var(--white)">Gestión de operaciones y documentación</div>
-        <div class="tags"><span class="chip">Sistema de gestión</span><span class="chip">Python</span></div>
-        <h3>Gestión naval integral</h3>
-        <p>Aplicación para organizar procesos administrativos, documentación y seguimiento de tareas en un entorno naval.</p>
-        <a href="https://github.com/Valepf/angulo-gestion-naval-integral">Ver repositorio</a>
-      </article>
-      <article class="card">
-        <div class="shot" style="background:var(--mid)">Clasificación y gestión automatizada de tickets</div>
-        <div class="tags"><span class="chip">n8n</span><span class="chip">IA</span></div>
-        <h3>Tickets automáticos con IA</h3>
-        <p>Proyecto de automatización de tickets de soporte con n8n e inteligencia artificial.</p>
-        <a href="https://github.com/Valepf/ai-support-ticket-automation-n8n">Ver repositorio</a>
-      </article>
-      <article class="card">
-        <div class="shot" style="background:var(--pale)">Contenido odontológico automatizado</div>
-        <div class="tags"><span class="chip">Node.js</span><span class="chip">Automatización</span></div>
-        <h3>Fábrica de contenido para Instagram</h3>
-        <p>Convierte contenido escrito en carruseles listos para Instagram (1080×1350) y evita repetir temas con un detector automático.</p>
-        <a href="https://github.com/Valepf/fb-odontologia-fabrica-contenido">Ver repositorio</a>
-      </article>
-      <article class="card">
-        <img class="shot-img" src="https://github.com/Valepf/rock-and-roots/raw/main/docs/capturas/01-menu.jpg" alt="Menú principal del juego Rock &amp; Roots" loading="lazy">
-        <div class="tags"><span class="chip">JavaScript</span><span class="chip">Phaser 3</span></div>
-        <h3>Rock &amp; Roots</h3>
-        <p>Juego arcade web de estética pixel, con tres niveles, jefa final y controles para PC y celular.</p>
-        <a href="https://github.com/Valepf/rock-and-roots">Ver repositorio</a>
-      </article>
-    </div>
-  </section>
-
-  <section id="sobre-mi">
-    <h2>Sobre mí</h2>
-    <div class="about">
-      <div>
-        <p>Soy programadora y docente de programación en Coding Giants, donde enseño a chicos y adolescentes con herramientas como Python, C# y Scratch. También trabajo en operaciones de entrada de datos y gestión administrativa en Taller Naval Angulo. Me considero versátil y resolutiva: me gusta entender un problema y encontrar la herramienta justa para resolverlo, sea un sistema de gestión, una automatización o un juego. Me apasiona aprender y probar lo nuevo que va apareciendo, y este espacio reúne parte de lo que fui construyendo.</p>
-        <p style="margin-top:12px">Técnica Universitaria en Tecnologías de la Programación (UPSO). Formación pedagógica en etapa de finalización.</p>
-      </div>
-      <div class="chips" aria-label="Tecnologías">
-        <span class="chip">Python</span><span class="chip">C#</span><span class="chip">n8n</span><span class="chip">SQL</span><span class="chip">Scratch</span><span class="chip">GitHub</span>
-      </div>
-    </div>
-  </section>
-
-  <section id="contacto">
-    <div class="contact">
-      <h2>¿Hablamos?</h2>
-      <div class="row">
-        <span class="chip">Correo: pendiente de confirmar</span>
-        <span class="chip">LinkedIn: pendiente de confirmar</span>
-        <a class="btn" href="https://github.com/Valepf">GitHub</a>
-      </div>
-    </div>
-  </section>
+<div class="hero">
+<div>
+<span class="chip" style="background:var(--mid)">Hola, soy Valeria Garcia</span>
+<h1>Programadora que <em>automatiza</em> y enseña a crear</h1>
+<p>Python, n8n, sistemas de gestión y mucha curiosidad. Acá reúno lo que construyo: automatizaciones, sistemas y juegos.</p>
+<div class="row">
+<a class="btn main" href="#proyectos">Ver proyectos</a>
+<a class="btn" href="#contacto">Hablemos</a>
+</div>
+</div>
+<div class="photo"><img alt="Retrato de Valeria Garcia" class="me" height="400" src="foto.jpg" width="400"/></div>
+</div>
+<section id="proyectos">
+<h2>Proyectos destacados</h2>
+<div class="grid"><article class="card"><div aria-label="Vista esquemática ilustrativa del panel de tickets" class="shot project-visual dashboard" role="img">Tickets  ·  Prioridades  ·  Métricas</div><div class="tags"><span class="chip">Python</span><span class="chip">Streamlit</span><span class="chip">Pandas</span></div><h3>Mesa de Ayuda con IA</h3><p>Panel de seguimiento de tickets con filtros, prioridades, estados y métricas. Incluye una demo con datos ficticios.</p><div class="row" style="margin-top:auto;padding-top:8px"><a class="btn main" href="https://mesa-ayuda-dashboard-kt7aj4uar7j2t2i5ugiybf.streamlit.app/" rel="noopener noreferrer" target="_blank">Probar aplicación</a><a class="btn" href="https://github.com/Valepf/mesa-ayuda-dashboard" rel="noopener noreferrer" target="_blank">Ver código</a></div></article><article class="card"><div aria-label="Esquema ilustrativo del flujo automatizado" class="shot project-visual workflow" role="img">Formulario  →  IA  →  n8n  →  Registro</div><div class="tags"><span class="chip">n8n</span><span class="chip">IA</span><span class="chip">Automatización</span></div><h3>Gestión automatizada de tickets</h3><p>Flujo de clasificación y procesamiento de solicitudes de soporte con inteligencia artificial y n8n.</p><div class="row" style="margin-top:auto;padding-top:8px"><a class="btn" href="https://github.com/Valepf/ai-support-ticket-automation-n8n" rel="noopener noreferrer" target="_blank">Ver código</a></div></article><article class="card"><img alt="Captura real del menú de Rock &amp; Roots" class="shot-img" loading="lazy" src="https://raw.githubusercontent.com/Valepf/rock-and-roots/main/docs/capturas/01-menu.jpg"/><div class="tags"><span class="chip">JavaScript</span><span class="chip">Phaser 3</span></div><h3>Rock &amp; Roots</h3><p>Juego arcade pixel art con escenarios, jefa final y controles para computadora y celular.</p><div class="row" style="margin-top:auto;padding-top:8px"><a class="btn main" href="https://valepf.github.io/rock-and-roots/" rel="noopener noreferrer" target="_blank">Probar aplicación</a><a class="btn" href="https://github.com/Valepf/rock-and-roots" rel="noopener noreferrer" target="_blank">Ver código</a></div></article></div>
+</section>
+<section id="sobre-mi">
+<h2>Sobre mí</h2>
+<div class="about">
+<div>
+<p>Soy programadora y docente de programación en Coding Giants, donde enseño a chicos y adolescentes con herramientas como Python, C# y Scratch. También trabajo en operaciones de entrada de datos y gestión administrativa en Taller Naval Angulo. Me considero versátil y resolutiva: me gusta entender un problema y encontrar la herramienta justa para resolverlo, sea un sistema de gestión, una automatización o un juego. Me apasiona aprender y probar lo nuevo que va apareciendo, y este espacio reúne parte de lo que fui construyendo.</p>
+<p style="margin-top:12px">Técnica Universitaria en Tecnologías de la Programación (UPSO). Formación pedagógica en etapa de finalización.</p>
+<p style="margin-top:12px">Disponible para proyectos freelance y colaboraciones profesionales. Facturación como monotributista.</p></div>
+<div aria-label="Tecnologías" class="chips">
+<span class="chip">Python</span><span class="chip">C#</span><span class="chip">n8n</span><span class="chip">SQL</span><span class="chip">Scratch</span><span class="chip">GitHub</span>
+</div>
+</div>
+</section>
+<section id="contacto">
+<div class="contact">
+<h2>¿Hablamos?</h2>
+<p class="contact-details">Teléfono: +54 9 2932 417588 · Email: valeriagarciapf@gmail.com</p><div class="row"><a class="btn" href="mailto:valeriagarciapf@gmail.com">Correo electrónico</a><a class="btn" href="https://wa.me/542932417588" rel="noopener noreferrer" target="_blank">WhatsApp</a><a class="btn" href="https://www.linkedin.com/in/valeria-garcia-067438252/" rel="noopener noreferrer" target="_blank">LinkedIn</a><a class="btn" href="https://github.com/Valepf" rel="noopener noreferrer" target="_blank">GitHub</a></div>
+</div>
+</section>
 </main>
-
 <footer class="wrap">© 2026 Valeria Garcia</footer>
-
 </body>
 </html>
